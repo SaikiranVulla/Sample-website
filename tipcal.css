@@ -7,5 +7,67 @@
   -webkit-border-radius: 5px;
   border-radius: 5px;
   text-align: center;
-  background: green;
+  background-color: rdg(88, 151, 51);
+}
+h1
+{
+  margin: 0 0 20px;
+  padding: 0 0 20px;
+  border-bottom: solid 1px #ddd;
+}
+form 
+{
+  text-align: left;
+}
+form input[type=text]
+{
+  width: 70px;
+}
+form label
+{
+  margin: 15px 0;
+  padding: 8px 0;
+  font-weight: 600;
+}
+form input, form select
+{
+  margin: 8px 0;
+  padding: 3px 0;
+}
+button
+{
+  text-transform: uppercase;
+  border-bottom: solid 2px #ddd;
+  margin: 0 0 8px 0;
+  width: 100%;
+  padding: 5px;
+}
+button:hover
+{
+  background-color: rgb(136, 182, 63);
+  border-bottom-color: #111;
+}
+button:active
+{
+  position: relative;
+  top: 2px;
+}
+#totaltip
+{
+  font-size: 20px;
+}
+#totaltip:before
+{
+  content: "Tip amount";
+  display: block;
+}
+#totaltip sup
+{
+  font-size: 20px;
+}
+#totaltip small
+{
+  font-size: 15px;
+  font-style: italic;
+  font-weight: lighter;
 }
