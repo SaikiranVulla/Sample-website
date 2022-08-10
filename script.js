@@ -6,7 +6,7 @@ function calculatetip()
   var servicequality = document.getElementById("servicequality").value;
   var numPeople = document.getElementById("totalpeople").value;
   if(billamount === "" || servicequality == "") {
-    window.alert("Please enter any value");
+    alert("Please enter any value");
     return;
 }  
 
