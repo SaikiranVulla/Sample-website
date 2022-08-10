@@ -6,7 +6,7 @@ function calculatetip()
   var servicequality = document.getElementById("servicequality").value;
   var numPeople = document.getElementById("totalpeople").value;
   if(billamount === "" || servicequality == "") {
-    alert("Please enter any value");
+    window.alert("Please enter any value");
     return;
 }  
 
@@ -24,6 +24,6 @@ document.getElementById("tip").innerHTML = total;
 }
 
 
-document.getElementById("totaltip").style.display = "none";
-document.getElementById("each").style.display = "none";
+document.getElementById("totaltip").style.display = "block";
+document.getElementById("each").style.display = "block";
 document.getElementById("calculate").onclick = function() { calculatetip();};
